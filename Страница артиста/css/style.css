@@ -1,1 +1,46 @@
-style.css
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+
+
+.page {
+    margin: 55px;
+    background-color: #fafafa;
+}
+
+.menu-container {
+    list-style-type: none;
+    
+}
+h1 {
+    background-color: #1A2B50;
+    color: white;
+    font-family: arial;
+    margin-bottom: 10px;   
+
+}
+
+.main-text {
+    max-width: 57   0px;
+}
+.section-text {
+    background-color: #1A2B50;
+    color: white;
+    font-family: arial;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.links-container {
+    list-style-type: none;
+    
+}
+
+.footer-container {
+    margin-top: 50px;
+    text-align: center;  
+}
