@@ -1,0 +1,26 @@
+@import url(/Users/stanislavpanfilov/Desktop/projects/moscow_coding_school/web_dev/my_landing_page/reset.css);
+
+.header {
+    background-color:#DFDAD7;
+}
+
+
+.image-container {
+    
+    
+}
+.page-img {
+width: 100%;  
+}
+
+.links-container {
+    background-color:#DFDAD7;
+}
+
+.main-text {
+    background-color: white;
+}
+
+.footer-container {
+    background-color:#DFDAD7;  
+}
