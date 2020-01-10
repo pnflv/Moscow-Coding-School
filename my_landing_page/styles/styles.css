@@ -1,26 +1,53 @@
 @import url(/Users/stanislavpanfilov/Desktop/projects/moscow_coding_school/web_dev/my_landing_page/reset.css);
 
-.header {
+.header-container {
     background-color:#DFDAD7;
+    height: 50px;
+    margin-bottom: 0px;
+    /* правильно ли избавляться от отступа с помощью margin-bottom? */
+    
 }
 
 
-.image-container {
-    
-    
 }
 .page-img {
 width: 100%;  
+/* Как изменить высоту изображения, сохранив пропорции? */ 
+}
+
 }
 
 .links-container {
-    background-color:#DFDAD7;
+    background-color:#DFDAD7; /* перестало работать это свойство */
+    height: 100px;
+    margin-top: 0px;
+    list-style-type: none;
+   /* margin-left: 80px - здесь это свойство не работает */ 
+}
+
+li {
+    display: inline;
+}
+    /* margin-left: 80px здесь отступ визуально больше чем при тех же margin-left: 80px; у .main-text. обратил внимание, что свойство не работают при обращении к классу .links-container */
+
+
+a {
+    text-decoration: none; 
+ /* обратил внимание, что свойство не работают при обращении к классу .links-container */
+    
 }
 
 .main-text {
     background-color: white;
+    height: 400px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: helvetica, sans-serif;
+    font-size: 30px;
+    font-style: bold;
 }
 
 .footer-container {
     background-color:#DFDAD7;  
+    height: 50px;
 }
