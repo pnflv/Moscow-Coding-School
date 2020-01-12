@@ -1,53 +1,64 @@
 @import url(/Users/stanislavpanfilov/Desktop/projects/moscow_coding_school/web_dev/my_landing_page/reset.css);
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab&display=swap');
 
 .header-container {
-    background-color:#DFDAD7;
-    height: 50px;
-    margin-bottom: 0px;
-    /* правильно ли избавляться от отступа с помощью margin-bottom? */
-    
+    background-color:rgb(127, 188, 181);
+    height: 80px;
+    line-height: 80px;
+    font-family: oswald, sans-serif;
 }
 
-
+.heading {
+    margin-left: 80px;
 }
+
 .page-img {
-width: 100%;  
-/* Как изменить высоту изображения, сохранив пропорции? */ 
-}
-
+height: 810px; 
 }
 
 .links-container {
-    background-color:#DFDAD7; /* перестало работать это свойство */
-    height: 100px;
-    margin-top: 0px;
+    background-color:rgb(127, 188, 181);
+    height: 80px;
     list-style-type: none;
-   /* margin-left: 80px - здесь это свойство не работает */ 
+    font-family: roboto slab, serif;
 }
 
 li {
     display: inline;
+    line-height: 80px;
+   
 }
-    /* margin-left: 80px здесь отступ визуально больше чем при тех же margin-left: 80px; у .main-text. обратил внимание, что свойство не работают при обращении к классу .links-container */
 
 
 a {
-    text-decoration: none; 
- /* обратил внимание, что свойство не работают при обращении к классу .links-container */
-    
+    text-decoration: none;   
+    color: black;
+    margin-left: 80px;  
+}
+
+h3 {
+    font-family: oswald, sans-serif;
+    font-size: 20px;
+    color: rgb(218, 57, 49);
+
 }
 
 .main-text {
     background-color: white;
-    height: 400px;
     margin-left: 80px;
     margin-right: 80px;
-    font-family: helvetica, sans-serif;
-    font-size: 30px;
-    font-style: bold;
+    font-family: Roboto slab, serif;
+    font-size: 16px;
 }
 
 .footer-container {
-    background-color:#DFDAD7;  
+    background-color:rgb(127, 188, 181);
     height: 50px;
+    line-height: 50px;
+}
+
+.footer-text {
+    margin-left: 80px;
+    font-family: roboto slab, serif;
+
 }
