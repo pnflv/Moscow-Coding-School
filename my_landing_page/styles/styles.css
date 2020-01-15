@@ -1,3 +1,4 @@
+@import url('/Users/stanislavpanfilov/Desktop/projects/moscow_coding_school/web_dev/my_landing_page/style/normalize.css')
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab&display=swap');
 
 .header-container {
@@ -11,6 +12,14 @@
 
 .heading {
     margin-left: 80px;
+}
+
+.p-heading {
+    font-family: oswald, sans-serif;
+    color: rgb(218, 57, 49);
+    font-size: 24px;
+    margin-top: 10px;
+  margin-bottom: 7px;
 }
 
 .image-container {
@@ -27,19 +36,26 @@ width: 100%;
     list-style-type: none;
     font-family: roboto slab, serif;
     margin: 0;
+  
     
 }
 
-li {
-    display: inline-block;
-    line-height: 80px; 
+.links {
+ line-height: 80px;  
 }
 
+li {
+  display: inline;
+
+   
+}
 
 a {
     text-decoration: none;   
     color: black;
-    margin-left: 80px;
+    
+   
+   
 }
 
 .links-container li a {
@@ -50,29 +66,23 @@ a {
     background-color: white;
     margin-left: 80px;
     width: 1000px;
-    height: 300px;
+    height: 350px;
     font-family: Roboto slab, serif;
-    font-size: 16px;
-    display: block;
+    font-size: 18px;
+    margin-top: 60px;
 }
 
-h3 {
-    font-family: oswald, sans-serif;
-    color: rgb(218, 57, 49);
-    font-size: 24px;
-
-}
 
 .footer-container {
     background-color:rgb(127, 188, 181);
     height: 50px;
     line-height: 50px;
+    width: 100%;
 }
 
 
 .footer-text {
     margin-left: 80px;
-    margin-top: 0px;
     font-family: roboto slab, serif;
 
 }
