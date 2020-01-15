@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab&display=swap');
+
+.header-container {
+    background-color:rgb(127, 188, 181);
+    height: 80px;
+    line-height: 80px;
+    font-family: oswald, sans-serif;
+    font-size: 32px;
+    
+}
+
+.heading {
+    margin-left: 80px;
+}
+
+.image-container {
+    font-size: 0;
+   
+}
+.page-img {
+width: 100%;
+}
+
+.links-container {
+    background-color:rgb(127, 188, 181);
+    height: 80px;
+    list-style-type: none;
+    font-family: roboto slab, serif;
+    margin: 0;
+    
+}
+
+li {
+    display: inline-block;
+    line-height: 80px; 
+}
+
+
+a {
+    text-decoration: none;   
+    color: black;
+    margin-left: 80px;
+}
+
+.links-container li a {
+
+}
+
+.text {
+    background-color: white;
+    margin-left: 80px;
+    width: 1000px;
+    height: 300px;
+    font-family: Roboto slab, serif;
+    font-size: 16px;
+    display: block;
+}
+
+h3 {
+    font-family: oswald, sans-serif;
+    color: rgb(218, 57, 49);
+    font-size: 24px;
+
+}
+
+.footer-container {
+    background-color:rgb(127, 188, 181);
+    height: 50px;
+    line-height: 50px;
+}
+
+
+.footer-text {
+    margin-left: 80px;
+    margin-top: 0px;
+    font-family: roboto slab, serif;
+
+}
