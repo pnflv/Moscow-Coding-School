@@ -1,4 +1,4 @@
-@import url('my_landing_page/style/normalize.css');
+@import url('/Users/stanislavpanfilov/Desktop/projects/moscow_coding_school/web_dev/my_landing_page/style/reset.css');
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab&display=swap');
 
 .header-container {
@@ -46,7 +46,8 @@ width: 100%;
 }
 
 li {
-  display: inline;
+  display: inline-block;
+  margin-left: 80px;
 }
 
 a {
