@@ -1,0 +1,145 @@
+@import url('/Users/stanislavpanfilov/Desktop/projects/moscow_coding_school/web_dev/Element positioning/style/reset.css');
+
+* {
+    box-sizing: border-box;
+}
+
+/* Header */ 
+
+.header-container {
+    background-color: #FE1A19;
+    width: 100%;
+    height: 60px;
+}
+
+.header-text {
+    color: white;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;  
+    margin-left: 40px;
+}
+
+.main-div {
+    background-image: url(https://cookingtheglobe.com/wp-content/uploads/2017/07/french-strawberry-tart-recipe-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 50%;
+}
+
+/* Common column scc styles */
+
+.section-a, .section-b, .section-c {
+    display: inline-block;
+
+}
+
+.first-column-content, .second-column-content, .third-column-content {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    }
+
+.heading-a, .heading-b, .heading-c {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 33px 0 33px 33px;
+} 
+
+/* First column specific styles*/ 
+
+.first-column-container {
+    height: 800px;
+    width: 400px;
+    border: 5px solid #E5E000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin: 52px 0px 52px 70px;
+    background-color: white;
+    
+}
+
+/* Content inside first column */ 
+
+.paragraph-a-one, .paragraph-a-two, .paragraph-a-three, .paragraph-a-four{
+    margin-left: 33px;
+    margin-top: 33px; 
+}
+
+/* Second column specific styles*/ 
+
+.second-column-container {
+    height: 800px;
+    width: 400px;
+    border: 5px solid #E5E000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin: 52px 0px 52px 50px;
+    background-color: white;
+}
+
+/* Content inside second column */ 
+
+.paragraph-b-one, .paragraph-b-two, .paragraph-b-three, .paragraph-b-four {
+    margin-left: 33px; 
+    margin-top: 33px;
+}
+
+/* Third column specific styles*/ 
+
+.third-column-container {
+    height: 800px;
+    width: 400px;
+    border: 5px solid #E5E000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin: 52px 0 52px 50px;
+    background-color: white;
+}
+
+/* Content inside third column */ 
+
+.paragraph-c-one, .paragraph-c-two, .paragraph-c-three, .paragraph-c-four {
+    margin-left: 33px;
+    margin-top: 33px;
+
+}
+
+/* Footer */
+
+.footer-container {
+    background-color: #FE1A19;
+    width: 100%;
+    height: 60px;
+}
+
+.footer-content {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    color: white;
+
+}
+
+.copy {
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+    color: white;
+}
