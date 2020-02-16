@@ -1,126 +1,51 @@
-@import url('/Users/stanislavpanfilov/Desktop/projects/moscow_coding_school/web_dev/Element positioning/style/reset.css');
+@import url('../style/reset.css');
 
 * {
     box-sizing: border-box;
 }
 /* header */ 
-.header {
+
+.header-container {
     height: 140px;
     width: 100%;
     position: fixed;
     background-color: white;
-    display: block;
+    border-bottom: solid 1px #E50043;
+    display: flex;
+    z-index: 1;
 }
 
-.logo-container {
-    display: inline-block;
+.logo {
     width: 120px;
     height: 40px;
-    margin: 50px 0 50px 50px;
-    display: inline-block;
-
 }
 
-.header-links {
-    display: inline-block;
-    float: right;
-    margin: 50px 50px 50px 0;
-
+.menu {
+   
 }
 
-.header-links-list, .header-item {
-    font-family: ArialMT;
-    font-weight: 500;
-    font-size: 50px;
-    display: inline;
-    margin-left: 25px;
-}
-
-a {
+.menu li, a {
+    list-style-type: none;
     text-decoration: none;
-    color: #E50043; 
+    color: #E50043;
     font-family: ArialMT;
     font-weight: 500;
     font-size: 50px;
 }
 
-/* key visual */ 
+/* main */
 
-
-
-.image {
+.main-visual-container {
+    width: 1440px;
     height: 950px;
-    background-image: url(/Users/stanislavpanfilov/Desktop/projects/moscow_coding_school/web_dev/evian/img/evian_origins_logo.png);
     display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
 }
 
-.slogan {
-    margin: auto;
+h1 {
+    color:#E50043;
     font-family: ArialMT;
+    font-style: normal;
     font-weight: 500;
     font-size: 100px;
-    color: #E50043; 
-}
-
-/* our water */
-
-.copy-section-container {
-    height: 280px;
-    width: 1040px;
-    border: 3px;
-    border-style: solid;
-    border-color: #F8BFC7;
-    border-radius: 20px;
-    margin: 200px 200px 200px 200px;    
-}
-
-.copy-content-container {
-    padding: 24px;
-    font-family: ArialMT;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 27px;
-}
-
-/* bottles */ 
-
-.bottle-section-container {
-    display: flex;
-}
-
-.bottle-1, .bottle-2, .bottle-3 {
-    margin: 150px auto 48px;
-}
-
-.product-description-container {
-    display: flex;
-}
-
-.product-description {
-font-family: ArialMT;
-font-weight: 500;
-font-size: 25px;
-margin: auto;
-}
-
-/* attribute section */ 
-
-.attribute-section {  
-    height: 280px;
-    width: 1040px;
-    border: 3px solid;
-    border-style: solid;
-    border-color: #F8BFC7;
-    border-radius: 20px;
-    margin: 200px 200px 200px 200px;  
-    display: flex;
-}
-
-.attribute-item {
-    font-family: ArialMT;
-    font-weight: 500;
-    font-size: 25px;
+    margin: auto;
 }
