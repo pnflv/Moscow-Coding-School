@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
 }
+
 /* header */ 
 
 .header-container {
@@ -12,19 +13,22 @@
     background-color: white;
     border-bottom: solid 1px #E50043;
     display: flex;
-    z-index: 1;
 }
 
 .logo {
     width: 120px;
-    height: 40px;
+    height: 40px;    
 }
 
 .menu {
-   
+    display: flex;
 }
 
-.menu li, a {
+li :first-of-type {
+   margin: auto;
+}
+
+/* .menu li, a {
     list-style-type: none;
     text-decoration: none;
     color: #E50043;
@@ -32,20 +36,20 @@
     font-weight: 500;
     font-size: 50px;
 }
+*/ 
 
 /* main */
 
-.main-visual-container {
+.main-container {
     width: 1440px;
     height: 950px;
-    display: flex;
+   
 }
 
-h1 {
+.main h1 {
     color:#E50043;
     font-family: ArialMT;
     font-style: normal;
     font-weight: 500;
     font-size: 100px;
-    margin: auto;
 }
