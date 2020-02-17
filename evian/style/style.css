@@ -6,26 +6,25 @@
 
 /* header */ 
 
-.header-container {
+.header {
     height: 140px;
     width: 100%;
     position: fixed;
     background-color: white;
     border-bottom: solid 1px #E50043;
+}
+
+.header-content {
     display: flex;
 }
 
-.logo {
+.header-content-logo {
     width: 120px;
-    height: 40px;    
+    height: 40px;   
 }
 
-.menu {
-    display: flex;
-}
-
-li :first-of-type {
-   margin: auto;
+ul {
+    margin-left: auto;
 }
 
 /* .menu li, a {
