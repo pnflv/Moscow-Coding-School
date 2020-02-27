@@ -43,9 +43,9 @@
     font-size: 50px;
 }
 
-/* main */
+/* visual */
 
-.main-container {
+.visual-container {
     width: 1440px;
     height: 950px;
     margin-top: 140px;
@@ -54,7 +54,7 @@
 
 }
 
-.main-container h1 {
+.visual-container h1 {
     color:#E50043;
     font-family: ArialMT;
     font-style: normal;
@@ -65,4 +65,94 @@
 
 h1 {
     margin: auto;
+}
+
+/* about water */
+
+
+.description-container {
+width: 1040px;
+height: 280px;
+border: solid 1px #E50043;
+border-radius: 20px;
+display: flex;
+}
+
+.description-container p {
+    width: 992px;
+    height: 232px;
+    font-family: ArialMT;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 27px;
+    margin: auto;
+
+}
+
+/* bottles section */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.product-container {
+    display: flex;
+}
+
+.product-1 {
+    background-image: url(../img/wang.png);
+    width: 280px;
+    height: 863px;
+} 
+
+.product-2 {
+    background-image: url(../img/lacroix.png);
+    width: 280px;
+    height: 863px;
+}
+
+.product-3 {
+    background-image: url(../img/chiara.png);
+    width: 280px;
+    height: 863px;
+}
+
+/* bottles section */
+
+.composition-container {
+    width: 1040px;
+    height: 280px;
+    border: solid 1px #E50043;
+    border-radius: 20px;
+    display: flex;
+}
+
+.composition__content {
+    width: 750px;
+    height: 220px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.composition-container img {
+    height: 220px;
+    width: 100px;
+}
+.composition__list {
+    width: 749px;
+    height: 220px;
+}
+
+.composition__list li {
+    font-family: ArialMT;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 27px;
+    color: black;
+
 }
