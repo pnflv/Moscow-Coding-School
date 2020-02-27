@@ -1,0 +1,64 @@
+body {
+    background-color: #C0ABE9;
+}
+
+.image-container {
+   position: relative;
+   margin-top: 225px;
+   margin-left: 125px;
+   margin-right: 125px;
+   text-align: center;
+  
+   
+}
+
+h1 {
+    position: absolute;
+    top: -230px;
+    right: 40px;
+
+    font-family: helvetica;
+    font-weight: 500;
+    font-size: 120px;
+    max-width: 600px;
+    text-align: right;
+}
+
+.menu {
+    position: absolute;
+    top: 80px;
+    left: 130px;    
+    font-family: helvetica;
+    font-weight: 100;
+    font-size: 30px;
+    max-width: 400px;
+    
+}
+
+a {
+    color: black;
+
+}
+
+li {
+    list-style-type: none;
+    text-decoration-line: none;
+}
+
+#bio {
+    font-family: helvetica;
+
+    
+
+}
+.main-text {
+    text-align: left;
+    max-width: 560px;
+    margin-left: 350px;
+    font-family: helvetica;
+
+}
+
+.selected-albums {
+    margin-left: 350px; 
+}

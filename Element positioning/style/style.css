@@ -43,6 +43,7 @@
     font-size: 20px;
     line-height: 23px;
     color: #000000;
+    list-style-type: none;
     }
 
 .heading-a, .heading-b, .heading-c {
@@ -137,7 +138,6 @@
 
 .link {
     text-decoration: none;
-    color: black;
     display: inline-block;
     float: right;
     margin-right: 40px;
