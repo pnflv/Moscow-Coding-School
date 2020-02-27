@@ -49,7 +49,9 @@
     width: 1440px;
     height: 950px;
     margin-top: 140px;
+    background-image: url(../img/evian_origins_logo.png);
     display: flex;
+
 }
 
 .main-container h1 {
