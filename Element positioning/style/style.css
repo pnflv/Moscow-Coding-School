@@ -1,4 +1,4 @@
-@import url('/Users/stanislavpanfilov/Desktop/projects/moscow_coding_school/web_dev/Element positioning/style/reset.css');
+@import url('../style/reset.css');
 
 * {
     box-sizing: border-box;
